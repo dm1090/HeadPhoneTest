@@ -13,6 +13,6 @@ Test of Several Headphones
 | Jabra    | Evolve 2 85     | Over the ears | 9 | 6 | 7 | 7 | 8 | [NoisyEnvTest](https://raw.githubusercontent.com/dm1090/HeadPhoneTest/main/JabraEvolve2-85NoisyEnvironmentTest.wav) | |
 
 
-<audio>
+<audio controls>
   <source src="https://raw.githubusercontent.com/dm1090/HeadPhoneTest/main/YealinkBH74NoisyEnvironmentTest.wav" type="audio/wav">
 </audio>
