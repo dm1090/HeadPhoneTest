@@ -17,6 +17,10 @@
     @media (max-width: 800px) {
       audio { width: 100%; }
     }
+    .remarks { margin-top: 1.25rem; }
+    .remarks h2 { margin: 0 0 .5rem; font-size: 1.15rem; }
+    .remarks ul { margin: 0 0 0 1.25rem; }
+    .remarks li { margin: .3rem 0; }
   </style>
   <link rel="icon" type="image/svg+xml" href="audioicon.svg">
 </head>
@@ -175,16 +179,18 @@
       </tr>
     </tbody>
   </table>
-  <h2 id="remarks-heading">Remarks</h2>
-  <ul>
-    <li>All recordings are uncompressed <code>.wav</code> (PCM) and streamed via <code>&lt;audio&gt;</code> with <code>type="audio/wav"</code>.</li>
-    <li>“ANC” = Active Noise Cancellation (what you hear)</li>
-    <li>“ENC” = Environmental Noise Cancellation (what others hear).</li>
-    <li>“Speaker Sound” = How well does the mic capture the human person's sound</li>
-    <li>“Comfort” = How comfortable is it wearing the headset for an hour?</li>
-    <li>Levels were kept consistent across tests; no EQ or post-processing applied unless noted.</li>
-    <li>“No file” indicates that sample hasn’t been uploaded yet.</li>
-    <li>If playback stalls, try another browser tab or hard refresh (browsers can cache aggressively).</li>
-  </ul>
+  <section class="remarks" aria-labelledby="remarks-heading">
+    <h2 id="remarks-heading">Remarks</h2>
+    <ul>
+      <li>All recordings are uncompressed <code>.wav</code> (PCM) and streamed via <code>&lt;audio&gt;</code> with <code>type="audio/wav"</code>.</li>
+      <li>“ANC” = Active Noise Cancellation (what you hear)</li>
+      <li>“ENC” = Environmental Noise Cancellation (what others hear).</li>
+      <li>“Speaker Sound” = How well does the mic capture the human person's sound</li>
+      <li>“Comfort” = How comfortable is it wearing the headset for an hour?</li>
+      <li>Levels were kept consistent across tests; no EQ or post-processing applied unless noted.</li>
+      <li>“No file” indicates that sample hasn’t been uploaded yet.</li>
+      <li>If playback stalls, try another browser tab or hard refresh (browsers can cache aggressively).</li>
+    </ul>
+  </section>
 </body>
 </html>
