@@ -11,8 +11,3 @@ Test of Several Headphones
 |          | Impact 860T     | On ears       | 8 | 7 | 10| 8 | 8 | [NoisyEnvTest](https://raw.githubusercontent.com/dm1090/HeadPhoneTest/main/EPOS860TVeryNoisyEnvironmentTest.wav) | [Background Music Test](https://raw.githubusercontent.com/dm1090/HeadPhoneTest/main/EPOS860TVeryNoisyEnvironmentTest2.wav) |
 | Poly     | Not Tested      |               |   |   |   |   |   | | |
 | Jabra    | Evolve 2 85     | Over the ears | 9 | 6 | 7 | 7 | 8 | [NoisyEnvTest](https://raw.githubusercontent.com/dm1090/HeadPhoneTest/main/JabraEvolve2-85NoisyEnvironmentTest.wav) | |
-
-
-<audio controls>
-  <source src="https://raw.githubusercontent.com/dm1090/HeadPhoneTest/main/YealinkBH74NoisyEnvironmentTest.wav" type="audio/wav">
-</audio>
